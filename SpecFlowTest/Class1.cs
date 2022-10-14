@@ -11,5 +11,25 @@ namespace SpecFlowTest
         {
             return FirstNumber + SecondNumber;
         }
+
+        public int Subtract()
+        {
+            return FirstNumber - SecondNumber;
+        }
+
+        public int Multiply()
+        {
+            return FirstNumber * SecondNumber;
+        }
+
+        public int Divide()
+        {
+            return FirstNumber / SecondNumber;
+        }
+
+        public int Modulo()
+        {
+            return FirstNumber% SecondNumber;
+        }
     }
 }
